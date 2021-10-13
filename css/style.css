@@ -4,9 +4,14 @@ header {
 }
 
 header .header-top {
-  height: 30px;
+  padding: 5px 15px;
   background-color: black;
-  color: white;
+}
+.logo-sony{
+  width: 90px;
+}
+img{
+  width: 100%;
 }
 
 header .header-bottom {
@@ -16,23 +21,28 @@ header .header-bottom {
 }
 
 /*section returnal*/
-.ss-section {
-  /*bg-image da aggiungere*/
+.ss-section,
+.ss-section-2 {
+  height: 500px;
+  background-color: chocolate;
+  background-image: url(../img/returnal-listing-thumb-01-ps5.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:right;
   padding: 170px 0 50px 40px;
 }
 
 .container-section {
-  background-color: wheat;
+  padding-top: 150px;
+  color: white;
 }
 
 .title-container-section {
-  background-color: violet;
+  color: white;
 }
 
 /*section cards*/
 .box {
-  /*placeholder*/
-  height: 250px;
   margin: 10px;
   background-color: brown;
 }
@@ -43,15 +53,18 @@ header .header-bottom {
 
 /*section accesory*/
 .box-img {
-  height: 80%;
-  background-color: cadetblue;
 }
 .box-subtitle {
-  height: 20%;
+}
+/*section it takes two*/
+.ss-section-2{
+background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
 }
 
 /*section nuove uscite*/
-
+h2{
+  color: white;
+}
 .container-nuove-uscite {
   background-color: #1f1f1f;
 }
