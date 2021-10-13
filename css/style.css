@@ -34,44 +34,45 @@ header .header-bottom {
   /*placeholder*/
   height: 250px;
   margin: 10px;
-  background-color:brown
-  
+  background-color: brown;
 }
 
 /*section ecco la playstation 5*/
 
-
 /*section console playstation 5*/
 
-
 /*section accesory*/
-.box-img{
+.box-img {
   height: 80%;
   background-color: cadetblue;
 }
-.box-subtitle{
+.box-subtitle {
   height: 20%;
 }
 
-
-
 /*section nuove uscite*/
 
-.container-nuove-uscite{
-  background-color:#1f1f1f;
+.container-nuove-uscite {
+  background-color: #1f1f1f;
 }
 /*section play station plus*/
-.ss-container-play-plus{
+.ss-container-play-plus {
   background-color: #bebcbb;
 }
 /*section play station now*/
-.ss-container-blue{
+.ss-container-blue {
   background-color: #161c3b;
 }
 
 /*section social media*/
-.ss-container-90{
+.ss-container-90 {
   width: 900px;
   max-width: 90%;
   margin: 0 auto;
+}
+
+/*footer*/
+footer .container-footer{
+  height: 600px;
+  background-color: #00439c;
 }
