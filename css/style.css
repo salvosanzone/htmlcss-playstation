@@ -32,13 +32,13 @@ header .header-bottom {
 /*section cards*/
 .box {
   /*placeholder*/
-  height: 157px;
+  height: 250px;
   margin: 10px;
   background-color:brown
   
 }
 
-/*section ecco la playstation*/
+/*section ecco la playstation 5*/
 
 
 /*section console playstation 5*/
@@ -51,4 +51,27 @@ header .header-bottom {
 }
 .box-subtitle{
   height: 20%;
+}
+
+
+
+/*section nuove uscite*/
+
+.container-nuove-uscite{
+  background-color:#1f1f1f;
+}
+/*section play station plus*/
+.ss-container-play-plus{
+  background-color: #bebcbb;
+}
+/*section play station now*/
+.ss-container-blue{
+  background-color: #161c3b;
+}
+
+/*section social media*/
+.ss-container-90{
+  width: 900px;
+  max-width: 90%;
+  margin: 0 auto;
 }
