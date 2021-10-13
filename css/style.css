@@ -28,7 +28,7 @@ header .header-bottom {
   background-image: url(../img/returnal-listing-thumb-01-ps5.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position:right;
+  background-position:center;
   padding: 170px 0 50px 40px;
 }
 
@@ -44,7 +44,6 @@ header .header-bottom {
 /*section cards*/
 .box {
   margin: 10px;
-  background-color: brown;
 }
 
 /*section ecco la playstation 5*/
@@ -63,7 +62,7 @@ background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
 
 /*section nuove uscite*/
 h2{
-  color: white;
+  /* color: white; */
 }
 .container-nuove-uscite {
   background-color: #1f1f1f;
