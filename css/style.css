@@ -1,6 +1,6 @@
 /*header*/
 header {
-  height: 80px;
+  
 }
 
 header .header-top {
@@ -10,33 +10,34 @@ header .header-top {
 .logo-sony{
   width: 90px;
 }
+.ss-color-nav{
+  color: black !important;
+}
 img{
   width: 100%;
 }
 
 header .header-bottom {
-  height: 50px;
-  background-color: white;
-  border: 1px solid black;
+  
 }
 
 /*section returnal*/
 .ss-section,
-.ss-section-2 {
+.ss-section-it-takes {
   height: 500px;
-  background-color: chocolate;
-  background-image: url(../img/returnal-listing-thumb-01-ps5.jpg);
+  background-image: url(../img/jumbo-bg.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position:center;
-  padding: 170px 0 50px 40px;
+  padding: 190px 0 50px 40px;
 }
 
 .container-section {
-  padding-top: 150px;
   color: white;
 }
-
+.logo-returnal{
+  width: 150px;
+}
 .title-container-section {
   color: white;
 }
@@ -56,12 +57,14 @@ header .header-bottom {
 .box-subtitle {
 }
 /*section it takes two*/
-.ss-section-2{
+.ss-section-it-takes{
 background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+padding: 90px 90px 0 0;
 }
 
 /*section nuove uscite*/
-h2{
+h2,
+h6{
   /* color: white; */
 }
 .container-nuove-uscite {
@@ -70,6 +73,9 @@ h2{
 /*section play station plus*/
 .ss-container-play-plus {
   background-color: #bebcbb;
+}
+.logo-ps{
+  width: 220px;
 }
 /*section play station now*/
 .ss-container-blue {
