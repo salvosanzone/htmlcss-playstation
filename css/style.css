@@ -1,82 +1,140 @@
 /*header*/
-header {
-  
-}
 
 header .header-top {
   padding: 5px 15px;
   background-color: black;
 }
-.logo-sony{
+.logo-sony {
   width: 90px;
 }
-.ss-color-nav{
+.ss-color-nav {
   color: black !important;
 }
-img{
+img {
   width: 100%;
 }
 
-header .header-bottom {
-  
+header .header-bottom .img-lens {
+  width: 25px;
+  margin-left: 25px;
 }
-
-/*section returnal*/
+button {
+  cursor: pointer;
+}
+/*section jumbo/returnal*/
 .ss-section,
 .ss-section-it-takes {
   height: 500px;
   background-image: url(../img/jumbo-bg.png);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position:center;
+  background-position: center;
   padding: 190px 0 50px 40px;
+  margin-top: 110px;
 }
-
-.container-section {
+.ss-white-color {
   color: white;
 }
-.logo-returnal{
+
+.logo-returnal {
   width: 150px;
 }
-.title-container-section {
+
+.text-container-section {
+  width: 412px;
+  max-width: 80%;
+  padding: 30px 0;
+}
+.ss-red-btn {
+  background-color: #cd3d0f;
   color: white;
 }
-
 /*section cards*/
+.ss-py-cards {
+  padding: 15px 0 80px 0;
+}
 .box {
   margin: 10px;
+}
+.box-radius {
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 2px;
+}
+.img-radius {
+  border-radius: 10px;
 }
 
 /*section ecco la playstation 5*/
 
+.ss-blue-color {
+  color: #2d64e6;
+}
+.ss-gray-color {
+  color: #7a7a7a;
+}
+.ss-py-bottom-10 {
+  padding-bottom: 10px;
+}
 /*section console playstation 5*/
+.ss-py-box {
+  padding-top: 150px;
+}
+.ss-py-15 {
+  padding: 15px 0;
+}
 
 /*section accesory*/
-.box-img {
-}
-.box-subtitle {
-}
-/*section it takes two*/
-.ss-section-it-takes{
-background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
-padding: 90px 90px 0 0;
+.ss-hover-black:hover {
+  cursor: pointer;
+  color: black;
+  border-bottom: 2px solid #2d64e6;
 }
 
-/*section nuove uscite*/
-h2,
-h6{
-  /* color: white; */
+/*section it takes two*/
+.ss-section-it-takes {
+  background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+  padding: 30px 90px 0 0;
 }
+.title-container-section {
+  width: 510px;
+  max-width: 80%;
+}
+.ss-img-takes-two {
+  width: 150px;
+}
+/*section nuove uscite*/
+.ss-font-size {
+  font-size: 14px;
+}
+
 .container-nuove-uscite {
   background-color: #1f1f1f;
 }
+/*section esplora play station 4*/
+.ss-py-50 {
+  padding: 50px 0 15px 0;
+}
+.ss-py-bottom-40 {
+  padding-bottom: 40px;
+}
+
 /*section play station plus*/
 .ss-container-play-plus {
   background-color: #bebcbb;
 }
-.logo-ps{
+.logo-ps {
   width: 220px;
 }
+.ss-lightgray-btn {
+  background-color: #d9dadc;
+  color: #396ce6;
+}
+/*section play station store*/
+.ss-py-40 {
+  padding-top: 40px;
+}
+
 /*section play station now*/
 .ss-container-blue {
   background-color: #161c3b;
@@ -88,9 +146,40 @@ h6{
   max-width: 90%;
   margin: 0 auto;
 }
-
+.ss-py-50 {
+  padding: 50px 0;
+}
+.ss-py-bottom-80 {
+  padding-bottom: 80px;
+}
 /*footer*/
-footer .container-footer{
-  height: 600px;
+footer .container-footer {
   background-color: #00439c;
+}
+.ss-ps-footer{
+  width: 100px;
+}
+.ss-img-world{
+  margin-right: 10px;
+    width: 20px;
+}
+ul li{
+  list-style: none;
+  color: white;
+}
+.ss-img-sie{
+  width: 130px;
+}
+.container-text-footer{
+  width: 315px;
+}
+.info{
+  cursor: pointer;
+  text-decoration-line: underline;
+}
+/*responsive*/
+@media screen and (max-width: 768px) {
+  .ss-py-box {
+    padding-top: 15px;
+  }
 }
