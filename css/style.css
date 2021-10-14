@@ -63,6 +63,13 @@ button {
 .img-radius {
   border-radius: 10px;
 }
+.ss-box-animation{
+  transition: 0.5s;
+}
+.ss-box-animation:hover{
+  cursor: pointer;
+  transform: translate(0px,-10px);
+}
 
 /*section ecco la playstation 5*/
 
