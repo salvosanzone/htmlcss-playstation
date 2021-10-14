@@ -42,7 +42,6 @@ button {
 
 .text-container-section {
   width: 412px;
-  max-width: 80%;
   padding: 30px 0;
 }
 .ss-red-btn {
@@ -94,11 +93,10 @@ button {
 /*section it takes two*/
 .ss-section-it-takes {
   background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
-  padding: 30px 90px 0 0;
+  padding: 30px 15px 0 0;
 }
 .title-container-section {
   width: 510px;
-  max-width: 80%;
 }
 .ss-img-takes-two {
   width: 150px;
@@ -125,6 +123,10 @@ button {
 }
 .logo-ps {
   width: 220px;
+  padding-top: 45px;
+}
+.ss-py-40-beetwen{
+  padding: 40px 0;
 }
 .ss-lightgray-btn {
   background-color: #d9dadc;
@@ -155,35 +157,42 @@ button {
 /*footer*/
 footer .container-footer {
   background-color: #00439c;
-  padding: 60px 40px 70px 30px;
+  padding: 60px 115px 70px 120px;
 }
-.ss-ps-footer{
+.ss-ps-footer {
   width: 100px;
   padding-bottom: 30px;
 }
-.ss-img-world{
+.ss-img-world {
   margin-right: 10px;
-    width: 20px;
+  width: 20px;
 }
-ul li{
+ul li {
   list-style: none;
   color: white;
-  padding-bottom: 10px
+  padding-bottom: 10px;
 }
-.ss-img-sie{
+.ss-img-sie {
   width: 130px;
   padding-bottom: 15px;
 }
-.container-text-footer{
-  width: 315px;
+.container-text-footer {
+  width: 534px;
 }
-.info{
+.info {
   cursor: pointer;
   text-decoration-line: underline;
 }
 /*responsive*/
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 991px) {
   .ss-py-box {
     padding-top: 15px;
   }
+  footer .container-text-footer{
+    width: 100%;
+  }
+  .text-container-section{
+    width: 100%;
+  }
 }
+
