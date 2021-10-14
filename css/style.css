@@ -95,13 +95,14 @@ button {
   background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
   padding: 30px 15px 0 0;
 }
-.title-container-section {
-  width: 510px;
-}
+
 .ss-img-takes-two {
   width: 150px;
 }
 /*section nuove uscite*/
+.container-nuove-uscite{
+  padding: 30px 0;
+}
 .ss-font-size {
   font-size: 14px;
 }
