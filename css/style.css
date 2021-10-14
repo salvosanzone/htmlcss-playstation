@@ -155,9 +155,11 @@ button {
 /*footer*/
 footer .container-footer {
   background-color: #00439c;
+  padding: 60px 40px 70px 30px;
 }
 .ss-ps-footer{
   width: 100px;
+  padding-bottom: 30px;
 }
 .ss-img-world{
   margin-right: 10px;
@@ -166,9 +168,11 @@ footer .container-footer {
 ul li{
   list-style: none;
   color: white;
+  padding-bottom: 10px
 }
 .ss-img-sie{
   width: 130px;
+  padding-bottom: 15px;
 }
 .container-text-footer{
   width: 315px;
