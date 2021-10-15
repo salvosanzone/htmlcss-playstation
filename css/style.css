@@ -18,8 +18,12 @@ header .header-bottom .img-lens {
   width: 25px;
   margin-left: 25px;
 }
-button {
+button{
+  transition:0.5s ;
+}
+button:hover {
   cursor: pointer;
+  transform: scale(1.1);
 }
 /*section jumbo/returnal*/
 .ss-section,
@@ -65,10 +69,12 @@ button {
 }
 .ss-box-animation{
   transition: 0.5s;
+  opacity: 0.5;
 }
 .ss-box-animation:hover{
   cursor: pointer;
   transform: translate(0px,-10px);
+  opacity:1.0 ;
 }
 
 /*section ecco la playstation 5*/
