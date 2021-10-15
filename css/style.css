@@ -23,7 +23,6 @@ button{
 }
 button:hover {
   cursor: pointer;
-  transform: scale(1.1);
 }
 /*section jumbo/returnal*/
 .ss-section,
@@ -34,7 +33,7 @@ button:hover {
   background-size: cover;
   background-position: center;
   padding: 190px 0 50px 40px;
-  margin-top: 110px;
+  margin: 110px 0 15px 0;
 }
 .ss-white-color {
   color: white;
@@ -53,9 +52,7 @@ button:hover {
   color: white;
 }
 /*section cards*/
-.ss-py-cards {
-  padding: 15px 0 80px 0;
-}
+
 .box {
   margin: 10px;
 }
@@ -67,14 +64,20 @@ button:hover {
 .img-radius {
   border-radius: 10px;
 }
-.ss-box-animation{
+.ss-box-animation,
+.ss-box-animation-accesory{
   transition: 0.5s;
   opacity: 0.5;
+}
+.ss-box-animation-accesory:hover{
+  opacity: 1.0;
+  cursor: pointer;
 }
 .ss-box-animation:hover{
   cursor: pointer;
   transform: translate(0px,-10px);
-  opacity:1.0 ;
+  opacity:1.0;
+  border: 0px;
 }
 
 /*section ecco la playstation 5*/
